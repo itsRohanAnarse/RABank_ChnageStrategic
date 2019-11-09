@@ -7,5 +7,6 @@
                 <element inactive_on_update="false" label="Current Account" sequence="1" value="current account"/>
             </choice>
         </element>
+        <element label="ACCOUNT HOLDER" max_length="32" name="u_reference_1" reference="x_188534_rabank_v1_client" type="reference"/>
     </element>
 </database>
