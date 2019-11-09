@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="account_type" table="x_188534_rabank_v1_account" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>account_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Saving Account</label>
+            <language>en</language>
+            <name>x_188534_rabank_v1_account</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-11-09 12:23:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>79af850ddb0100105e87f53a29961939</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-11-09 12:23:10</sys_updated_on>
+            <value>saving account</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>account_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Current Account</label>
+            <language>en</language>
+            <name>x_188534_rabank_v1_account</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-11-09 12:23:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>39af850ddb0100105e87f53a2996193b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-11-09 12:23:10</sys_updated_on>
+            <value>current account</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>account_type</element>
+            <name>x_188534_rabank_v1_account</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-11-09 12:23:10</sys_created_on>
+            <sys_id>f1af850ddb0100105e87f53a2996193a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>account_type</sys_name>
+            <sys_package display_value="RABank_V1" source="x_188534_rabank_v1">092a5610dbc100105e87f53a2996196c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="RABank_V1">092a5610dbc100105e87f53a2996196c</sys_scope>
+            <sys_update_name>sys_choice_x_188534_rabank_v1_account_account_type</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-11-09 12:23:10</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>
