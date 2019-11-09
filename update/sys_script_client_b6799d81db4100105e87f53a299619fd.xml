@@ -12,7 +12,7 @@
         <order/>
         <script><![CDATA[function onLoad() {
    //Type appropriate comment here, and begin script below
-	//alert(g_form.getLabelOf('account_holder'));
+	alert(g_form.getLabelOf('account_holder'));
 	//g_form.getReference('account',fun);
 	//alert(g_form.getValue('account'));
 	//g_form.hideRelatedList('x_188534_rabank_v1_account');
@@ -27,7 +27,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b6799d81db4100105e87f53a299619fd</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>RAB_OoLoad_Test</sys_name>
         <sys_overrides/>
         <sys_package display_value="RABank_V1" source="x_188534_rabank_v1">092a5610dbc100105e87f53a2996196c</sys_package>
@@ -35,7 +35,7 @@
         <sys_scope display_value="RABank_V1">092a5610dbc100105e87f53a2996196c</sys_scope>
         <sys_update_name>sys_script_client_b6799d81db4100105e87f53a299619fd</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-11-09 14:12:53</sys_updated_on>
+        <sys_updated_on>2019-11-09 14:16:53</sys_updated_on>
         <table>x_188534_rabank_v1_client</table>
         <type>onLoad</type>
         <ui_type>0</ui_type>
