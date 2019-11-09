@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Client" max_length="40" name="x_188534_rabank_v1_client" type="collection">
+        <element label="Account" max_length="32" name="account" reference="x_188534_rabank_v1_account" type="reference"/>
+        <element label="Account Holder" max_length="32" name="account_holder" reference="sys_user" type="reference"/>
+    </element>
+</database>

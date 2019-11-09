@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Account" max_length="40" name="x_188534_rabank_v1_account" type="collection">
+        <element label="ACCOUNT NUMBER" max_length="40" name="account_number" type="integer"/>
+        <element choice="1" label="ACCOUNT TYPE" max_length="40" name="account_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Saving Account" sequence="0" value="saving account"/>
+                <element inactive_on_update="false" label="Current Account" sequence="1" value="current account"/>
+            </choice>
+        </element>
+    </element>
+</database>
