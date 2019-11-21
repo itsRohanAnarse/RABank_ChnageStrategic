@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="task" label="Bank" max_length="40" name="x_188534_rabank_v1_bank" type="collection">
+    <element extends="task" label="Bank" max_length="40" name="x_188534_rabank_v1_bank" sizeclass="1" type="collection">
         <element label="Bank Name" max_length="40" name="bank_name" type="string"/>
     </element>
 </database>
